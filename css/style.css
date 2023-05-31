@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+nav{
+    background-color: #ff6900;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+}
+
+nav img{
+    height: 50px;
+    margin-top: 5px;
+}
+
+nav button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+nav .icons{
+    width: 208.5px;
+    text-align: right;
+}
