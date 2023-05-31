@@ -104,7 +104,7 @@ nav .icons{
 }
 
 .img:hover .img-b{
-    display: block;
+    display: inline-block;
 }
 
 .bottom-bar{
