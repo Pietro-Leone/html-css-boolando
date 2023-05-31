@@ -13,6 +13,10 @@ nav{
     color: white;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
 }
 
 ul{
@@ -42,4 +46,96 @@ nav button{
 nav .icons{
     width: 208.5px;
     text-align: right;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 80px auto;
+}
+
+.row{
+    justify-content: center;
+    flex-wrap:wrap
+    
+}
+
+.col{
+    flex-basis: 33.3%;
+    padding: .5rem 1rem;
+}
+
+.card{
+    height: 650px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.brand{
+    font-size: small;
+    color: gray;
+}
+
+.price{
+    font-size: small;
+}
+
+.discounted-price{
+    color: red;
+}
+
+.original-price{
+    text-decoration: line-through;
+}
+
+.img{
+    position: relative;
+}
+
+.img-b{
+    display: none;
+}
+
+.img:hover .img-a{
+    display: none;
+}
+
+.img:hover .img-b{
+    display: block;
+}
+
+.bottom-bar{
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.discount{
+    padding: 2px 5px;
+    background-color: red;
+}
+
+.sustainability{
+    padding: 2px 5px;
+    background-color: green;
+}
+
+.heart{
+    background-color: white;
+    font-size: large;
+    text-align: center;
+    padding: 5px 9px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
 }
