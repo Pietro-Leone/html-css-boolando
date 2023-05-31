@@ -31,8 +31,9 @@ a{
 }
 
 nav img{
-    height: 50px;
-    margin-top: 5px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 nav button{
@@ -138,4 +139,32 @@ nav .icons{
 .heart:hover{
     color: red;
     cursor: pointer;
+}
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.footer{
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boolando{
+    padding: .5rem;
+    display: inline-block;
+}
+
+footer button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 10px 3px;
+}
+
+footer i{
+    font-size: 22px;
 }
